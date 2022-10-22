@@ -1,10 +1,10 @@
-%define githash bcee4e15d3e4d970d477ca3ad1cc7b1b4c691345
+%define githash 1374b0fce40f283b113e051f0558564fa1d9ad22
 
 %define shorthash %(c=%{githash}; echo ${c:0:10})
 
 Name:           waybar
 Version:        0.9.13
-Release:        7.git.%{shorthash}%{?dist}
+Release:        8.git.%{shorthash}%{?dist}
 Summary:        Highly customizable Wayland bar for Sway and Wlroots based compositors
 License:        MIT
 URL:            https://github.com/Alexays/Waybar
