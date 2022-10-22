@@ -39,6 +39,7 @@ BuildRequires:  libappindicator-gtk3
 BuildRequires:  libdbusmenu-gtk3
 BuildRequires:  libxkbcommon
 BuildRequires:  catch-devel
+BuildRequires:  pipewire-jack-audio-connection-kit
 
 BuildRequires:  pkgconfig(gtkmm-3.0)
 BuildRequires:  pkgconfig(dbusmenu-gtk3-0.4)
@@ -60,6 +61,7 @@ BuildRequires:  pkgconfig(libnl-3.0)
 BuildRequires:  pkgconfig(libnl-genl-3.0)
 BuildRequires:  pkgconfig(libmpdclient)
 BuildRequires:  pkgconfig(wayland-protocols)
+BuildRequires:  pipewire-jack-audio-connection-kit-devel
 
 Recommends:     fontawesome-fonts
 
