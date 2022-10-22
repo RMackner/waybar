@@ -70,15 +70,7 @@ is packaged up as a single header for extra convenience.
 	
 %build
 	
-%cmake \
-	
-    -DCATCH_BUILD_EXTRA_TESTS=ON \
-	
-    -DCATCH_ENABLE_WERROR=OFF \
-	
-    -DCATCH_INSTALL_DOCS=OFF \
-	
-    -DBUILD_SHARED_LIBS=OFF
+%cmake
 	
 %cmake_build
 	
