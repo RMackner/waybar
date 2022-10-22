@@ -101,9 +101,14 @@ is packaged up as a single header for extra convenience.
 	
 %{_datadir}/Catch2/
 	
-%{_datadir}/pkgconfig/catch2.pc
+%{_datadir}/pkgconfig/catch2*
 	
 %{_libdir}/cmake/Catch2/
+
+/usr/lib64/*
+
+/usr/share/doc/Catch2/*
+   
 	
  
 	
